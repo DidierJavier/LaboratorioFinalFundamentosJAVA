@@ -5,7 +5,7 @@ package com.gm.mundopc;
  * @author DIDIER JAVIER
  */
 public class Raton extends DispositivoEntrada{
-    private int idRaton;
+    private final int idRaton;
     private static int contadorRatones;
 
     public Raton(String tipoEntrada, String marca) {

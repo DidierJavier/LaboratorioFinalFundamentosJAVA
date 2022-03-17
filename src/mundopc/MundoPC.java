@@ -1,5 +1,6 @@
 package mundopc;
 
+import com.gm.mundopc.Computadora;
 import com.gm.mundopc.Monitor;
 import com.gm.mundopc.Raton;
 import com.gm.mundopc.Teclado;
@@ -25,6 +26,11 @@ public class MundoPC {
         Monitor monitor3 = new Monitor("MABE", 14.5);
         Monitor monitor4 = new Monitor("KTRON", 19.0);
         
-        System.out.println(monitor4);
+        Computadora computadora1 = new Computadora("HP", monitor4, teclado3, raton2);
+        Computadora computadora2 = new Computadora("LG", monitor1, teclado1, raton1);
+        Computadora computador3 = new Computadora ("APPLE", monitor2, teclado4, raton1);
+        Computadora computadora4 = new Computadora ("LENOVO", monitor3, teclado2, raton4);
+        
+        System.out.println(computadora1);
     }
 }

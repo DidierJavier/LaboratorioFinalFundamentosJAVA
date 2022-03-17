@@ -5,7 +5,7 @@ package com.gm.mundopc;
  * @author DIDIER JAVIER
  */
 public class Monitor {
-    private int idMonitor;
+    private final int idMonitor;
     private String marca;
     private Double tamanio;
     private static int contadorMonitores;
