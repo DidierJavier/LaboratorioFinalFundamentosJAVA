@@ -43,11 +43,9 @@ public class Monitor {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Monitor{");
-        sb.append("idMonitor=").append(idMonitor);
-        sb.append(", marca=").append(marca);
-        sb.append(", tamanio=").append(tamanio);
-        sb.append('}');
+        sb.append("ID Monitor= ").append(idMonitor);
+        sb.append(", Marca= ").append(marca);
+        sb.append(", Tamaño= ").append(tamanio);
         return sb.toString();
     }
     

@@ -63,13 +63,14 @@ public class Computadora {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Computadora{");
-        sb.append("idComputadora=").append(idComputadora);
-        sb.append(", nombre= ").append(nombre);
-        sb.append(", monitor= ").append(monitor);
-        sb.append(", teclado= ").append(teclado);
-        sb.append(", raton= ").append(raton);
-        sb.append('}');
+        sb.append("\n");
+        sb.append("ID Computadora= ").append(idComputadora);
+        sb.append(", Nombre= ").append(nombre);
+        sb.append("\n").append(monitor);
+        sb.append("\n").append(teclado);
+        sb.append("\n").append(raton);
+        sb.append("\n");
+        sb.append("------------------------------------------------------------------------------");
         return sb.toString();
     }
     

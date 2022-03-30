@@ -36,7 +36,6 @@ public class DispositivoEntrada {
         sb.append("tipoEntrada=").append(tipoEntrada);
         sb.append(", marca=").append(marca);
         sb.append('}');
-        sb.append("]");
         return sb.toString();
     }    
     

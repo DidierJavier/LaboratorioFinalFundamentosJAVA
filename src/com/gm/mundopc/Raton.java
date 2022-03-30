@@ -16,10 +16,8 @@ public class Raton extends DispositivoEntrada{
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Raton{");
-        sb.append("idRaton= ").append(idRaton);
-        sb.append(". [").append(super.toString());
-        sb.append('}');
+        sb.append("ID Raton= ").append(idRaton);
+        sb.append(". ").append(super.toString());
         return sb.toString();
     }
     

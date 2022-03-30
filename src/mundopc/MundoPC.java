@@ -2,6 +2,7 @@ package mundopc;
 
 import com.gm.mundopc.Computadora;
 import com.gm.mundopc.Monitor;
+import com.gm.mundopc.Orden;
 import com.gm.mundopc.Raton;
 import com.gm.mundopc.Teclado;
 
@@ -28,9 +29,15 @@ public class MundoPC {
         
         Computadora computadora1 = new Computadora("HP", monitor4, teclado3, raton2);
         Computadora computadora2 = new Computadora("LG", monitor1, teclado1, raton1);
-        Computadora computador3 = new Computadora ("APPLE", monitor2, teclado4, raton1);
+        Computadora computadora3 = new Computadora ("APPLE", monitor2, teclado4, raton1);
         Computadora computadora4 = new Computadora ("LENOVO", monitor3, teclado2, raton4);
+        Computadora computadora5 = new Computadora("LENOVO", monitor1, teclado3, raton3);
         
-        System.out.println(computadora1);
+        Orden orden1 = new Orden();
+        orden1.agregarComputadora(computadora3);
+        orden1.agregarComputadora(computadora5);
+        orden1.agregarComputadora(computadora1);
+        orden1.mostrarOrden(orden1);
+        
     }
 }
